@@ -1,0 +1,15 @@
+README
+
+The language used for this program is python. 
+The OS used was Mac. 
+
+
+How to compile my file:
+	1. Open terminal
+	2. Enter commands in this form:
+		./CG_hw2 -f hw2_c.ps -a -150 -b -475 -c 123 -d -65 > hw2_ex9.pbm
+	3. A pbm file will be created
+ 
+
+I used the below website to get a better understanding of the sutherland-hodgman algorithm. 
+https://www.geeksforgeeks.org/polygon-clipping-sutherland-hodgman-algorithm-please-change-bmp-images-jpeg-png/

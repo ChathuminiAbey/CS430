@@ -1,0 +1,22 @@
+README
+
+The language used for this program is python. 
+The OS used was Mac. 
+
+
+How to compile my file:
+	1. Open terminal
+	2. Enter commands in this form:
+		./CG_hw1 -f hw1.ps -a 0 -b 0 -c 499 -d 499 -s 1.0 -m 0 -n 0 -r 0 > out.pbm
+	3. A pbm file will be created
+
+The test cases I used were: 
+ ./CG_hw1 -f hw1.ps -a 0 -b 0 -c 499 -d 499 -s 1.0 -m 0 -n 0 -r 0 > test2.pbm 
+ ./CG_hw1 -f hw1.ps -a 0 -b 0 -c 499 -d 499 -s 0.8 -m 85 -n 25 -r 10 > test2.pbm 
+ ./CG_hw1 -f hw1.ps -s 0.5 > test2.pbm 
+ ./CG_hw1 -f hw1.ps -r -30 > test2.pbm 
+ ./CG_hw1 -f hw1.ps -m 100 -n 100 > test2.pbm 
+ 
+
+I used the below website to get a better understanding of the cohen sutherland algorithm. 
+https://www.geeksforgeeks.org/line-clipping-set-1-cohen-sutherland-algorithm/

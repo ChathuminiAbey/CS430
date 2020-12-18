@@ -1,0 +1,37 @@
+README
+
+The language used for this program is python. 
+The OS used was Mac. 
+
+
+How to compile my file:
+	1. Open terminal
+	2. Enter commands in this form:
+./CG_hw4 -f bound-lo-sphere.smf -x -1.0 -z 0.5 -q 1.0 -w -0.5 > out2.pbm
+./CG_hw4 -f bound-lo-sphere.smf -q 1.0 -w -1.0 > out3.pbm
+./CG_hw4 -f bound-lo-sphere.smf -x -4.0 -z 5.0 -q 1.0 -w -0.5 > out4.pbm
+./CG_hw4 -f bound-lo-sphere.smf -k 125 -p 375 -q 1.0 -u -1.4 -U 1.4 > out5.pbm
+./CG_hw4 -f bound-bunny_200.smf -j 100 -k 50 -o 400 -p 450 -x 0.5 -y 0.2 -z 1.0 -X 0.2 -Y -0.2 -Z 0.3 -q -3.0 -r -2.0 -w 1.0 -Q 3.0 -R -2 -W -4.0 -u -.5 -v -.9 -U 1.2 -V .8 -P > hw4_f.pbm
+./CG_hw4 -f bound-bunny_200.smf -j 100 -k 50 -o 400 -p 450 -x 0.5 -y 0.2 -z 1.0 -X 0.2 -Y -0.2 -Z 0.3 -q -3.0 -r -2.0 -w 1.0 -Q 3.0 -R -2 -W -4.0 -u -.5 -v -.9 -U 1.2 -V .8 > hw4_g.pbm
+./CG_hw4 -f bound-cow.smf > cow_default.pbm
+./CG_hw4 -f bound-cow.smf -P > cow_parallel.pbm
+./CG_hw4 -f bound-cow.smf -j 0 -k 30 -o 275 -p 305 -P > cow_jkopP.pbm
+./CG_hw4 -f bound-cow.smf -x 1.5 > cow_x1.5.pbm
+./CG_hw4 -f bound-cow.smf -x 4.75 -y -3.25 -z 3.3 -P > cow_xyzPar.pbm
+./CG_hw4 -f bound-cow.smf -X 0.25 -Y -0.15 -Z 0.3 > cow_XYZ.pbm
+./CG_hw4 -f bound-cow.smf -X 0.35 -Y -0.3 -Z 0.3 -u -0.35 -v -0.35 -P > cow_XYZuvP.pbm
+./CG_hw4 -f bound-cow.smf -X 0.25 -Y -0.15 -Z 0.3 -j 103 -k 143 -o 421 -p 379 > cow_XYZjkop.pbm
+./CG_hw4 -f bound-cow.smf -X 0.35 -Y -0.3 -Z 0.3 -u -0.35 -v -0.35 -j 43 -k 71 -o 201 -p 402 -P > cow_XYZuvjkopP.pbm
+./CG_hw4 -f bound-cow.smf -q -1 -r 1.5 -w -2.0 > cow_q_r_w.pbm
+./CG_hw4 -f bound-cow.smf -Q 1.5 -R 1 -W .4 > cow_QRW.pbm
+	3. A pbm file will be created
+ 
+I notice one minor issue with my code, where certain vertices are not being placed properly. 
+
+I used the following sites for help and more information:
+#https://www.cs.cmu.edu/afs/cs/academic/class/15462-s09/www/lec/06/lec06.pdf
+#https://www.tutorialspoint.com/computer_graphics/3d_computer_graphics.htm
+#http://www.cs.sjtu.edu.cn/~shengbin/course/cg/lecture%20notes/CG10_(ch10)%203D%20Viewing_new.pdf
+#https://www.geeksforgeeks.org/multiplication-two-matrices-single-line-using-numpy-python/
+#https://www.cs.drexel.edu/~david/Classes/CS430/Lectures/L-18_CullingZbufRays.pdf
+#https://www.cs.drexel.edu/~david/Classes/CS430/Lectures/L-15_Surfaces.pdf
